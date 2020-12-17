@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc
-        image: azuredevopsdemoregistry.azurecr.io/aksdemo:#{Build.BuildId}# 
+        image: aksdemodelphi.azurecr.io/shindesanket/delphimeproject:#{Build.BuildId}# 
         # image: __ACR_NAME__.azurecr.io/webapp:1.__Build.BuildId__
         ports:
         - containerPort: 80
